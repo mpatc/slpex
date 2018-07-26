@@ -14,7 +14,7 @@ let langs = [
   'spanish'
 ];
 
-let lang = langs[Math.floor(Math.random()*langs.length)];
+let lang = langs[3];
 
 // create 256 bit BIP39 mnemonic
 let mnemonic = BITBOX.Mnemonic.generate(256, BITBOX.Mnemonic.wordLists()[lang]);
